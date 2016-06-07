@@ -1,0 +1,45 @@
+# OS files #
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+.idea/
+.Trash/
+
+# Python Django #
+*.pyc
+*.pyo
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+lib
+lib64
+
+# The rest_framework_swagger module static lib files
+!/devops/static/rest_framework_swagger/lib
+
+# SOC ignore files except three log files
+devops/local_settings.py
+
+devops/media/download/*.txt
+devops/media/download/*.xls
+devops/media/reports/*
+!/devops/media/images/default_avatar.jpg
+devops/media/avatar/*
+logs/*.log
+logs/*.pid
+
+# code coverage
+.coverage
+coverage_report/
+htmlcov/
+
+＃ virtualenv
+venv/
+
+*~
